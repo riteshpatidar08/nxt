@@ -1,10 +1,16 @@
+
+'use-client'
+
 import React from 'react'
+import Link from 'next/link'
 
 function Product() {
+  
   return (
     <div>
-      <h1>Product 1st</h1>
-      <h1>Product 2nd</h1>
+     <Link href='/product/1'>Go to product one</Link>
+     <Link href='/product/2'>Go to product two</Link>
+
     </div>
   )
 }
